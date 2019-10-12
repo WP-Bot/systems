@@ -15,5 +15,5 @@ then
   fi
 
   # Create a WPBot instance
-  screen -S WPBot -p 0 -X stuff "/usr/bin/php /home/contribot/IRC/contributor-bot.php$(printf \\r)"
+  screen -S WPBot -p 0 -X stuff "/usr/bin/php /home/wpbot/irc.wp-bot.net/contributor-bot.php$(printf \\r)"
 fi
